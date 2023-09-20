@@ -20,7 +20,7 @@ body {
 }
 
 .case-study img {
-    border: solid 2px black;
+    border: 2px solid black;
 }
 
 .case-study:focus {
