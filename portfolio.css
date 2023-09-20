@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.case-studies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.case-study {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.case-study h2 {
+    margin-top: 0;
+}
+
+.case-study p {
+    margin-bottom: 15px;
+}
+
+.case-study img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
