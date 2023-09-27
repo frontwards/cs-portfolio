@@ -26,6 +26,10 @@ body {
     border: 2px solid black;
 }
 
+.case-study .material-symbols-outlined {
+    text-align: center;
+}
+
 .case-study:focus {
     outline: 2px solid #007BFF; /* Add focus outline */
 }
