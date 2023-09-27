@@ -17,34 +17,25 @@ body {
 .case-study {
     border: 1px solid #ccc;
     padding: 20px;
-    text-decoration: none; /* Remove default link styling */
-    color: #333; /* Set text color for links */
-    transition: background-color 0.3s; /* Add smooth transition for hover effect */
+    text-decoration: none; 
+    color: #333; 
+    transition: background-color 0.3s; 
+    display: flex; /* Add flexbox */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Align content to top and bottom */
+    height: 100%; /* Allow the container to take full height */
 }
 
-.case-study img {
+/* .case-study img {
     border: 2px solid black;
+    align-self: center; 
+    margin-bottom: auto;
 }
+*/
 
-.case-study:focus {
-    outline: 2px solid #007BFF; /* Add focus outline */
-}
-
-.case-study:hover {
-    background-color: #f5f5f5; /* Add background color on hover */
-}
-
-.case-study h2 {
-    margin-top: 0;
-}
-
-.case-study p {
-    margin-bottom: 15px;
-}
-
-.case-study img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+.material-icons {
+    font-family: 'Material Symbols Outlined', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: none;
 }
